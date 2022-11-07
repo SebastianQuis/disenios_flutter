@@ -6,7 +6,7 @@ class ScrollScreen extends StatelessWidget {
     gradient: LinearGradient(
       begin: Alignment.topCenter,
       end: Alignment.bottomCenter,
-      stops: [0.5,0.5],
+      stops: [0.5,0.5], // establecer dimension de cada colors
       colors: [
         Color(0xff5EE8C5),
         Color(0xff30BAD6)])
